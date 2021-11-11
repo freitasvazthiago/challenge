@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/projects/challenge/tests" tests="7" assertions="1" errors="0" warnings="6" failures="1" skipped="0" time="0.220676">
+    <testsuite name="Tests\Exam\CRUDTest" file="/projects/challenge/tests/Exam/CRUDTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="1" skipped="0" time="0.216523">
+      <testcase name="create_route" class="Tests\Exam\CRUDTest" classname="Tests.Exam.CRUDTest" file="/projects/challenge/tests/Exam/CRUDTest.php" line="34" assertions="1" time="0.216523">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Exam\CRUDTest::create_route
+Failed asserting that a row in the table [daily_logs] matches the attributes {
+    "user_id": 1,
+    "log": "Logging from create route test",
+    "day": "2020-01-01 00:00:00"
+}.
+
+The table is empty..
+
+/projects/challenge/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:28
+/projects/challenge/tests/Exam/CRUDTest.php:47</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\HTTPTest" file="/projects/challenge/tests/Exam/HTTPTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.001212">
+      <testcase name="Warning" assertions="0" time="0.001212">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\HTTPTest".</warning>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\JobTest" file="/projects/challenge/tests/Exam/JobTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000583">
+      <testcase name="Warning" assertions="0" time="0.000583">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\JobTest".</warning>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\LivewireTest" file="/projects/challenge/tests/Exam/LivewireTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000588">
+      <testcase name="Warning" assertions="0" time="0.000588">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\LivewireTest".</warning>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\MigrationTest" file="/projects/challenge/tests/Exam/MigrationTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000564">
+      <testcase name="Warning" assertions="0" time="0.000564">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\MigrationTest".</warning>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\ModelTest" file="/projects/challenge/tests/Exam/ModelTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000621">
+      <testcase name="Warning" assertions="0" time="0.000621">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\ModelTest".</warning>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Exam\PackageInstallTest" file="/projects/challenge/tests/Exam/PackageInstallTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000585">
+      <testcase name="Warning" assertions="0" time="0.000585">
+        <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Exam\PackageInstallTest".</warning>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
